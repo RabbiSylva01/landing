@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
+  }
+  
+
+#header {
+    display:flex;
+    height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #eee;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    
+}
+
+.box1{
+    width: 25vw;
+    position: absolute;
+    left:0;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+}
+
+.box2{
+    width:35vw;
+    position: absolute;
+    top:0px;
+    right:0;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+}
+
+#nav-bar ul {
+    display: flex ;
+}  
+
+#nav-bar ul li {
+    font-size: 1.3rem;
+    list-style-type: none;
+    margin-left: 2.5rem;
+    
+}
+
+#nav-bar ul li a {
+    text-decoration: none;
+    color:black
+}
+
+#header-img{
+    width: 300px;
+    
+}
+
+.others {
+    margin-top: 15vh;
+    text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+}
+
+#email {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+}
+
+#submit {
+    font-size: 1rem;
+    padding: 0.4rem 0.6rem;
+    background-color: #ffcf00;
+    font-weight: bold;
+}
+
+#features .paragraph {
+
+    display: flex;
+    width: 68%;
+    text-align: justify;
+    margin: 5rem auto;
+    
+}
+
+#features .paragraph i {
+    margin-right: 1.8rem;
+    font-size: 3rem;
+    color: orangered;
+}
+
+#features .paragraph .text {
+    
+    justify-content: center;
+    margin-left: 5.8rem;
+    position: absolute;
+}
+
+#features .paragraph h3 {
+    font-size: 1.6rem;
+}
+
+#hiw {
+ text-align: center;
+ margin-bottom: 5rem;
+} 
+
+#pricing {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 3rem auto;
+    justify-content: space-around;
+}
+
+#pricing .boxes  {
+    border: black 1px solid;
+    margin: 1rem;
+    width: 300px;
+    height: 280px;
+    text-align: center;
+}
+
+#pricing .boxes .price {
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 100%;
+    background-color: #ddd;
+    padding: 0.8rem;
+}
+
+#pricing p {
+    font: 1rem;
+}
+
+#pricing .par {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+
+#pricing .boxes .submitP {
+    
+    background-color: #f1c40f;
+    font-weight: 400;
+    padding: 0.5rem;
+    border: 0;
+  }
+
+footer {
+    margin-top: 30px;
+    background-color: #ddd;
+    padding: 20px;
+    width: 80%;
+    margin: 5rem auto 0 auto;
+    text-align: end;
+  }
+
+  footer a {
+    text-decoration: none;
+    color:black;
+  }
+
+  footer .link {
+    margin-bottom: 0.65rem;
+    justify-content: space-around;
+  }
+
+  @media only screen and (max-width: 850px) {
+ #header {
+    display:grid;
+    height: 15vh;
+    background-color: #eee;
+    width: 100%;
+    z-index: 5;
+    position:fixed;
+    margin: auto;
+    
+}
+
+.box1{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.box2{
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    
+}
+}
+
+  
+ 
+
+
+
+
+
+
+
